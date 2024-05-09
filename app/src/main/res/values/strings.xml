@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projet_Info</string>
+    <string name="channel_name">Item Borrow Channel</string>
+    <string name="channel_description">Notifications for borrowed items</string>
+</resources>
