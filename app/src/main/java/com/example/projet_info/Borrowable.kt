@@ -8,7 +8,11 @@ interface Borrowable {
     var dueDate: Calendar
 
     fun borrow(username: String, itemType: String): Boolean
-    fun returnItem()
+    fun returnItem() {
+        this.availability = true
+        // Update the database or whatever storage you're using
+    }
+
     fun checkAvailability(): Boolean
     fun calculateDueDate(): Calendar
 }
